@@ -47,7 +47,7 @@ CREATE TABLE matches (
 );
 
 -- copy the csv file into the table
-\COPY matches FROM '/home/shoaib/Documents/python_projeect/ipl_project/dataset/matches.csv' DELIMITER ',' CSV HEADER;
+\COPY matches FROM '/link/to/your/dataset/matches.csv' DELIMITER ',' CSV HEADER;
 
 
 CREATE TABLE deliveries (
@@ -74,7 +74,7 @@ CREATE TABLE deliveries (
     fielder text
 );
 
-\COPY deliveries FROM '/home/shoaib/Documents/python_projeect/ipl_project/dataset/deliveries.csv' DELIMITER ',' CSV HEADER;
+\COPY deliveries FROM '/home/link/to/your/dataset/deliveries.csv' DELIMITER ',' CSV HEADER;
 
 
 CREATE TABLE umpires (
@@ -82,7 +82,7 @@ CREATE TABLE umpires (
     country VARCHAR(255)
 );
 
-\COPY umpires FROM '/home/shoaib/Documents/python_projeect/ipl_project/dataset/umpires.csv' DELIMITER ',' CSV HEADER;
+\COPY umpires FROM '/home/link/to/your/dataset/umpires.csv' DELIMITER ',' CSV HEADER;
 
 
 -- updating the team name for optimizes calculation to runs
